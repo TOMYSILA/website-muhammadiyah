@@ -1,0 +1,331 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.menu-atas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-atas img {
+    max-width: 250px;
+}
+
+/* NAVBAR */
+.wraper {
+    border-bottom: 2px solid greenyellow;
+    width: 100%;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.wraper ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.li-nav {
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.li-nav a {
+    color: white;
+    transition: all 0.4s;
+}
+
+.li-nav :hover {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+/* NAVBAR END */
+
+/* CONTENT 1 */
+
+
+.content1 {
+    background-image: url('../image/bg-islamic-Muh.jpg');
+    text-align: center;
+    background-size: cover;
+    padding: 40px 0;
+    border-bottom: 3px solid #00701a;
+}
+
+.content1 h2 {
+    padding-bottom: 20px;
+    color: #007236;
+}
+
+.content1 p {
+    color: #2d8126;
+    margin: 0px 20px;
+}
+
+.btn-sejarah {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    background: #007236;
+    transition: all 0.2s;
+}
+
+.btn-sejarah:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    transform: rotate(10deg);
+}
+
+/* CONTENT ! END */
+
+/* NEWS */
+
+@keyframes newsAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.news {
+    text-align: center;
+    margin-top: 10px;
+    color: #009137;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.news-image img {
+    border-radius: 0px 0px 10px 10px;
+    max-width: 300px;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.news-image {
+    border-bottom: 3px solid #00701a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.image-news {
+    transition: all 0.2s;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.image-news:hover {
+    border-radius: 5px;
+    transform: scale(1.3);
+}
+
+
+.news-1,
+.news-2,
+.news-3 {
+    background: linear-gradient(130deg, rgb(39, 239, 39), #00701a);
+    border-radius: 0px 0px 15px 15px;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.news-1 a,
+.news-2 a,
+.news-3 a {
+    color: white;
+    display: inline-block;
+    margin-top: 45px;
+    padding: 10px;
+    background-color: #005b05;
+    transition: all 0.2s;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+.news-1 a:hover,
+.news-2 a:hover,
+.news-3 a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    transform: rotate(10deg);
+}
+
+.news-btn-link {
+    text-align: center;
+    animation-name: newsAnimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+
+
+
+/* GALERY */
+.image-galery {
+    border-radius: 20px;
+    margin: 20px;
+    max-width: 350px;
+    height: 280px;
+    opacity: 0.3;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image-galery:hover {
+    border-radius: 0px;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.galery {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Contact US */
+.wrapper-contact {
+    background-color: #d1d1d1;
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding: 60px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+}
+
+.container-contact {
+    margin: 20px;
+    display: grid;
+    place-items: center;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+}
+/* Contact Us */
+
+
+
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #019c49;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.image-footer {
+    width: 100px;
+    transition: all 0.3s;
+}
+
+.image-footer:hover {
+    transform: scale(1.7);
+    cursor: pointer;
+}
+
+.icon-footer {
+    margin: 20px;
+    width: 40px;
+    margin-bottom: 1%;
+    transition: all 0.3s;
+}
+
+.icon-footer:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    border-radius: none;
+}
+
+/* FOOTER End */
+
+
+/* Media screen reponsive 960px */
+@media screen and (max-width:950px) {
+
+    .content1,
+    .wraper,
+    .news,
+    .image-galery,
+    .wraper {
+        width: auto;
+        padding: 0 20px;
+    }
+
+}
+
+/* media screen responsive 760px */
+@media screen and (max-width:790px) {
+
+    .content1,
+    .wraper,
+    .news,
+    .image-galery,
+    .wraper {
+        float: none;
+        width: auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+}
